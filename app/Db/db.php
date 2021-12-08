@@ -5,7 +5,7 @@ class Conexion
 
     public static function conectar()
     {
-        $conexion = new mysqli("mysql", "root", "clave123", "mi_db");
+        $conexion = new mysqli("mysql", "root", "gaspar123", "mi_db");
         return $conexion;
     }
 }
